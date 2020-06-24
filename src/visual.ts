@@ -129,8 +129,8 @@ export class Visual implements IVisual {
       .call(xAxis)
       .selectAll("text")
       .style("text-anchor", "end")
-      .attr("dx", "-.8em")
-      .attr("dy", "-.6em")
+      .attr("dx", "-1.5em")
+      .attr("dy", "-1.6em")
       .attr("transform", "rotate(-90)");
 
     var yAxis = d3.axisLeft(yScale);
